@@ -36,10 +36,11 @@ contract waveportal {
     function getAllWaves() public view returns(Wave[] memory) {
         return waves;
     }
-    
+
     function getTotalWaves() public view returns (uint256) {
         console.log("We have %d total waves!!", totalWaves);
         return totalWaves;
     }
 
 }
+    
